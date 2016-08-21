@@ -29,30 +29,8 @@ header {
   text-align: center;
 }
 
-section {
-	margin-bottom: 5%;
-}
-
-li { list-style: none; }
-
-header > ul > li { 
-	display: inline-block;
-	padding: 1em; 
-}
-
-#class > ul {
-	margin: 0 auto;
-	text-align: center;
-}
-
-#websites > ul { text-align: center; }
-
-#websites > ul > li {
-	display: inline-block;
-	padding: 1em;
-}
-
-#websites > ul > li > a { font-family: link; }
+section { margin-bottom: 10%; }
+#contact { margin: 2%;}
 
 
 h1 { 
@@ -78,7 +56,6 @@ h4 {
 	margin: 5% 10%;
 }
 
-#contact { margin: 2%;}
 .contact-container {
 	margin: 2% auto;
 	border: 1px solid darkgrey;
@@ -86,6 +63,21 @@ h4 {
 	background: #f3f6f7;
 }
 
+ul {
+	margin: 0 auto;
+	text-align: center;
+}
+
+li { list-style: none; }
+
+header > ul > li, #websites > ul > li  { 
+	display: inline-block;
+	padding: 1em; 
+}
+
+#websites > ul > li > a > span { font: 1em link; }
+
+.contact-container > ul { text-align: left; }
 .contact-container > ul > li { padding: .5em .75em; color: #898989 }
 .contact-container > ul > li > * { color: #898989 }
 .contact-container > ul > li:nth-child(1) > span { font: 1em phone; }
