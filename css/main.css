@@ -36,6 +36,16 @@ header > ul > li {
 	padding: 1em; 
 }
 
+#websites > ul {
+	text-align: center;
+}
+
+#websites > ul > li {
+	display: inline-block;
+	padding: 1em;
+
+}
+
 h1 { 
 	padding: 1em; 
 	font-size: 1.75em;
@@ -106,7 +116,7 @@ a {
 }
 
 a:hover {
-
+	color: #6bd889;
 }
 
 .contact-container > ul > li:first-of-type(2) > a { font-family: email; }
