@@ -91,6 +91,7 @@ table {
 }
 
 tr:nth-child(odd) { background-color: #dce3e7; }
+td { padding: .25 .5em; }
 
 footer {
 	border-top: 1px solid darkgrey;
@@ -125,7 +126,7 @@ header > ul > li > a:hover, #websites > ul > li > a:hover { color: #6bd889; }
 			font-size: 2em;
 		}
     header {
-        height: 40%;
+      height: 40%;
     }
     .contact-container {
     	display: inline-block;
@@ -134,4 +135,5 @@ header > ul > li > a:hover, #websites > ul > li > a:hover { color: #6bd889; }
 			margin: 0 auto;
 			text-align: center;
 		}
+		td { padding: .5em 1em; }
 }
